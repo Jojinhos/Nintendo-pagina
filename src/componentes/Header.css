@@ -1,0 +1,45 @@
+header{
+    color:white;
+    background: #ff0000;
+    background: radial-gradient(circle,rgba(255, 0, 0, 1) 0%, rgba(168, 2, 2, 1) 100%);
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin:0;
+    height: 70px;
+
+}
+.titulo, .buscador, .login {
+    margin:0;
+}
+.buscador{
+    width: 20em;
+    height: 35px;
+    padding-left:20px ;
+    font-size: 23px;
+    border-radius: 20px;
+    border: none;
+    color:#4d4d4d;
+}
+.area-optn{
+    background-color: #a60008;
+    display: flex;
+    justify-content: center;
+}
+.lista{
+    width: 80%;
+    display: flex;
+    justify-content:space-between;
+    gap:20px;
+    margin: 0;
+    list-style: none;
+
+}
+.lista li{
+    height: 30px;
+    padding: 0;
+    color:white;
+}
+.lista li:hover{
+    background-color: red;
+}
